@@ -13,6 +13,7 @@ body {
 header {
   text-align: center;
   color: white;
+  z-index: 2;
 }
 footer {
   position: absolute;
@@ -23,6 +24,7 @@ footer {
   text-align: center;
   color: white;
   background: rgb(37, 37, 37);
+  z-index: 2;
 }
 /*Sokoban Layout*/
 .tile {
@@ -40,8 +42,7 @@ footer {
   bottom: 0px;
   width: 1216px;
   height: 1024px;
-  /*width: auto;*/
-  /*height: auto;*/
+  z-index: 1;
 }
 
 /*Assets*/
