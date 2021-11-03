@@ -1,0 +1,62 @@
+/*Site Layout*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  color: #2ecc92;
+}
+body {
+  background-color: rgb(51, 51, 51);
+  transform: scale(auto);
+}
+header {
+  text-align: center;
+  color: white;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background: rgb(37, 37, 37);
+}
+/*Sokoban Layout*/
+.tile {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  transform: scale(auto);
+}
+.map {
+  margin: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 1216px;
+  height: 1024px;
+  /*width: auto;*/
+  /*height: auto;*/
+}
+
+/*Assets*/
+.tile-wall {
+  background-image: url("./assets/wall.png");
+}
+.entity-player {
+  background-image: url("./assets/player.png");
+}
+.entity-block {
+  background-image: url("./assets/box.png");
+}
+.entity-block-goal {
+  background-image: url("./assets/boxgoal.png");
+}
+.tile-goal {
+  background-image: url("./assets/goal.png");
+}
