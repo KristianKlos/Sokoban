@@ -209,14 +209,3 @@ function moveBlock(blockTile,player){
   }
   return false;
 }
-
-
-
-
-
-function winScreen(Score){
-  if (Score == 6){
-    alert(Win);
-    window.location.href =  "win.html";
-  }
-}
